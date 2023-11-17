@@ -1,0 +1,14 @@
+/* hamburguer.css */
+
+.menu-hamburguer {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+}
