@@ -20,23 +20,18 @@
 
 .hamburguer {
   display: none;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
-}
-
-.line {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
 }
 
 .nav-bar {
-  padding: 0 20px;
+  padding: 0;
+}
+
+.title, .nav-bar {
+  border: 1px dashed red;
 }
 
 .menu-desk {
-  display: flex;
+  display: flex !important;
   gap: 20px;
   list-style: none;
   margin: 0;
@@ -55,25 +50,68 @@
 
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
-  .hamburguer {
-    display: flex;
+  .header {
+    height: 70px;
   }
   
   .menu-desk {
     display: none;
   }
   
+  .hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .hamburguer .line {
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    transition: 0.3s ease;
+    border-radius: 2px;
+  }
+
+  .hamburguer.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburguer.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburguer.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  .menu-mobile .nav-list {
+    padding: 15px;
+  }
+  
   .menu-mobile {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 70%;
+    background-color: #141414;
     display: flex;
     flex-direction: column;
     gap: 10px;
     list-style: none;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   
   .menu-mobile .nav-link {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+  }
+  
+  .menu-mobile .nav-link:hover {
+    color: #00BFFF;
   }
 }
