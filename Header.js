@@ -14,10 +14,10 @@ function Header() {
           <span className="line"></span>
           <span className="line"></span>
         </div>
+        
+        { /* Menu de navegação principal */ }
+        <Menu />
       </div>
-      
-      { /* Menu de navegação principal */ }
-      <Menu />
     </header>
   );
 };
