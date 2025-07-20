@@ -4,6 +4,7 @@
   height: 80px;
   background-color: #141414;
   box-sizing: border-box;
+  z-index: 5;
 }
 
 .header-content {
@@ -97,27 +98,44 @@
     transform: rotate(-45deg) translate(5px, -5px);
   }
   
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    backdrop-filter: blur(2px);
+  }
+  
   .menu-mobile .nav-list {
     padding: 15px;
   }
   
   .menu-mobile {
     position: absolute;
-    top: -100%;
+    top: 0;
     right: 0;
     width: 70%;
+    height: 100dvh;
     background-color: #141414;
     display: flex;
     flex-direction: column;
     gap: 10px;
     list-style: none;
     padding: 20px 0;
-    transition: top 0.3s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
   }
   
   .menu-mobile.open {
-    top: 70px;
-    transition: top 0.3s ease;
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
   }
   
   .menu-mobile .nav-link {

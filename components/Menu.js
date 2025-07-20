@@ -31,16 +31,16 @@ function Menu() {
         <li className="nav-list"><a className="nav-link">Contato</a></li>
       </ul>
       
+      {menuOpen && <div className="overlay" onClick={() => setMenuOpen(false)}></div>}
+      
       {/* Menu Mobile */}
-      {menuOpen && (
-        <ul className={`menu-mobile ${menuOpen ? 'open' : ''}`}>
-          <li className="nav-list"><a className="nav-link">Inicio</a></li>
-          <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
-          <li className="nav-list"><a className="nav-link">Habilidades</a></li>
-          <li className="nav-list"><a className="nav-link">Projetos</a></li>
-          <li className="nav-list"><a className="nav-link">Contato</a></li>
-        </ul>
-      )}
+      <ul className={`menu-mobile ${menuOpen ? 'open' : ''}`}>
+        <li className="nav-list"><a className="nav-link">Inicio</a></li>
+        <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
+        <li className="nav-list"><a className="nav-link">Habilidades</a></li>
+        <li className="nav-list"><a className="nav-link">Projetos</a></li>
+        <li className="nav-list"><a className="nav-link">Contato</a></li>
+      </ul>
     </nav>
   );
 };
