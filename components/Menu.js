@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Menu() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Função para alternar o estado do menu
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
+  
   return (
     <nav className="nav-bar">
+      {/* Menu Hamburguer */}
+      <div className={`hamburguer ${menuOpen ? 'active' : ''}`}
+        onClick={toggleMenu}
+        aria-label="Toggle menu"
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => { if (e.key === 'Enter') toggleMenu(); }}>
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </div>
+      
       {/* Menu Desktop */}
       <ul className="menu-desk">
         <li className="nav-list"><a className="nav-link">Inicio</a></li>
@@ -13,13 +32,15 @@ function Menu() {
       </ul>
       
       {/* Menu Mobile */}
-      <ul className="menu-mobile">
-        <li className="nav-list"><a className="nav-link">Inicio</a></li>
-        <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
-        <li className="nav-list"><a className="nav-link">Habilidades</a></li>
-        <li className="nav-list"><a className="nav-link">Projetos</a></li>
-        <li className="nav-list"><a className="nav-link">Contato</a></li>
-      </ul>
+      {menuOpen && (
+        <ul className={`menu-mobile ${menuOpen ? 'open' : ''}`}>
+          <li className="nav-list"><a className="nav-link">Inicio</a></li>
+          <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
+          <li className="nav-list"><a className="nav-link">Habilidades</a></li>
+          <li className="nav-list"><a className="nav-link">Projetos</a></li>
+          <li className="nav-list"><a className="nav-link">Contato</a></li>
+        </ul>
+      )}
     </nav>
   );
 };

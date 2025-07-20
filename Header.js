@@ -9,12 +9,6 @@ function Header() {
           <h1>Andrecode</h1>
         </div>
         
-        <div className="hamburguer">
-          <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
-        </div>
-        
         { /* Menu de navegação principal */ }
         <Menu />
       </div>

@@ -14,7 +14,9 @@
 }
 
 .title h1 {
-  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
   color: #fff;
 }
 
@@ -50,6 +52,10 @@
     height: 70px;
   }
   
+  .title h1 {
+    font-size: 1.8rem;
+  }
+  
   .menu-desk {
     display: none;
   }
@@ -59,7 +65,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 20px;
+    height: 17px;
     cursor: pointer;
     z-index: 10;
   }
@@ -90,7 +96,7 @@
   
   .menu-mobile {
     position: absolute;
-    top: 70px;
+    top: -100%;
     right: 0;
     width: 70%;
     background-color: #141414;
@@ -99,6 +105,12 @@
     gap: 10px;
     list-style: none;
     padding: 20px 0;
+    transition: top 0.3s ease;
+  }
+  
+  .menu-mobile.open {
+    top: 70px;
+    transition: top 0.3s ease;
   }
   
   .menu-mobile .nav-link {
