@@ -11,6 +11,10 @@ function Skills() {
         <p className="skills-description">
           Essas são algumas das tecnologias que utilizo para transformar ideias em soluções funcionais, com código limpo, visual agradável e foco na experiência do usuário.
         </p>
+        
+        <p className="skills-description" style={{ marginTop: '15px' }}>
+          Busco sempre aprimorar minhas habilidades, mantendo-me atualizado com as melhores práticas e tendências modernas do desenvolvimento web.
+        </p>
       </div>
 
       <div className="carousel-wrapper">

@@ -27,6 +27,7 @@ function Menu() {
         <li className="nav-list"><a className="nav-link">Inicio</a></li>
         <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
         <li className="nav-list"><a className="nav-link">Habilidades</a></li>
+        <li className="nav-list"><a className="nav-link">Certificados</a></li>
         <li className="nav-list"><a className="nav-link">Projetos</a></li>
         <li className="nav-list"><a className="nav-link">Servicos</a></li>
         <li className="nav-list"><a className="nav-link">Contato</a></li>
@@ -39,6 +40,7 @@ function Menu() {
         <li className="nav-list"><a className="nav-link">Inicio</a></li>
         <li className="nav-list"><a className="nav-link">Sobre mim</a></li>
         <li className="nav-list"><a className="nav-link">Habilidades</a></li>
+        <li className="nav-list"><a className="nav-link">Certificados</a></li>
         <li className="nav-list"><a className="nav-link">Projetos</a></li>
         <li className="nav-list"><a className="nav-link">Servicos</a></li>
         <li className="nav-list"><a className="nav-link">Contato</a></li>

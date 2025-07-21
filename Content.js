@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero.js';
 import About from './sections/About.js';
 import Skills from './sections/Skills.js';
+import Certificates from './sections/Certificates.js';
 
 function Content(){
   return (
@@ -14,6 +15,9 @@ function Content(){
       
       { /* Seção Habiliades */ }
       <Skills />
+      
+      { /* Seção Certificados */ }
+      <Certificates />
     </main>
   );
 };
