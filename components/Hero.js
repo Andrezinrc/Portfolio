@@ -3,7 +3,7 @@ import Form from './Form.js';
 
 function Hero(){
   return (
-    <div className="hero">
+    <div className="hero" id="#">
       <div className="hero-text">
         <div>
           <h1>Transformando ideias em <span>soluções digitais</span></h1>

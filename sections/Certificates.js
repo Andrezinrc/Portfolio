@@ -2,7 +2,7 @@ import React from 'react';
 
 function Certificates() {
   return (
-    <section className="certificates-section">
+    <section className="certificates-section" id="certificates">
       <div className="certificates-title">
         <h1>Certificados<span>.</span></h1>
       </div>
