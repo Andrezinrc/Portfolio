@@ -4,6 +4,7 @@
   top: 80px;
   display: flex;
   background-color: #141414;
+  padding: 120px 50px;
 }
 
 .hero-text{
@@ -11,7 +12,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 100px 50px;
 }
 
 .hero-text h1 {
@@ -52,15 +52,27 @@
   color: #00BFFF;
 }
 
+.hero-contact {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
   .hero {
+    padding: 80px 20px;
     flex-direction: column;
     top: 70px;
+    gap: 20px;
   }
   
   .hero-text {
     width: 100%;
-    padding: 80px 20px;
+  }
+  .hero-contact {
+    width: 100%;
+    padding: 20px;
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './Form.js';
 
 function Hero(){
   return (
@@ -27,6 +28,7 @@ function Hero(){
     
       <div className="hero-contact">
         {/* Formulário de contato ou botão de ação */}
+        <Form />
       </div>
     </div>
   );
