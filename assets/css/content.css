@@ -260,6 +260,100 @@
   background-color: #009acc;
 }
 
+.projects-section {
+  background-color: #141414;
+  width: 100%;
+  position: relative;
+  top: 80px;
+  padding: 120px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-title h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 200;
+  text-align: center;
+}
+
+.projects-title h1 span{
+  color: #00BFFF;
+}
+
+.projects-description {
+  font-size: 1rem;
+  color: #B0B0B0;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  max-width: 900px;
+  margin: 0 auto 1.2rem auto;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-info .card-title {
+  color: #fff;
+}
+
+.project-info p {
+  color: #CCC;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.project-button {
+  background-color: #00BFFF;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-button:hover {
+  background-color: #009acc;
+}
+
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
   .hero {
@@ -302,5 +396,18 @@
   .certificates-section {
     top: 70px;
     padding: 80px 20px;
+  }
+  
+  .certificates-title h1 {
+    font-size: 1.8rem;
+  }
+  
+  .projects-section {
+    top: 70px;
+    padding: 80px 20px;
+  }
+  
+  .projects-title h1 {
+    font-size: 1.8rem;
   }
 }

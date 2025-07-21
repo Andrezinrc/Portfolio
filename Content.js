@@ -3,6 +3,8 @@ import Hero from './components/Hero.js';
 import About from './sections/About.js';
 import Skills from './sections/Skills.js';
 import Certificates from './sections/Certificates.js';
+import Projects from './sections/Projects.js';
+
 
 function Content(){
   return (
@@ -18,6 +20,9 @@ function Content(){
       
       { /* Seção Certificados */ }
       <Certificates />
+      
+      { /* Seção Projetos */ }
+      <Projects />
     </main>
   );
 };
