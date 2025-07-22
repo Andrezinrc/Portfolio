@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useState, useEffect } from 'react';
 
 function Form() {
   const [email, setEmail] = useState('');
@@ -9,36 +8,43 @@ function Form() {
   // Regex simples para validar e-mail
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
-  const handleChange = (e) => {
+  useEffect(() => {
+    // Inicializa EmailJS usando a variável de ambiente
+    window.emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
+  }, []);
+  
+  function handleChange(e) {
     const value = e.target.value;
     setEmail(value);
     setIsValid(emailRegex.test(value));
-  };
+  }
   
-  const handleSubmit = (e) => {
+  function handleSubmit(e) {
     e.preventDefault();
     
     const templateParams = {
-      email: email,
+      email,
     };
     
-    emailjs.send(
-      process.env.REACT_APP_EMAILJS_SERVICE_ID,
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-      templateParams,
-      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
-    ).then(
-      (response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        setStatus('success');
-        setEmail('');
-      },
-      (error) => {
-        console.log('FAILED...', error);
-        setStatus('error');
-      }
-    );
-  };
+    window.emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          setStatus('success');
+          setEmail('');
+          setIsValid(false);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          setStatus('error');
+        }
+      );
+  }
   
   return (
     <form className="form" onSubmit={handleSubmit}>
@@ -57,13 +63,11 @@ function Form() {
           }
         />
       </div>
-      
       <div>
         <button type="submit" disabled={!isValid}>
           Solicitar orçamento
         </button>
       </div>
-
       {status === 'success' && <p className="success">E-mail enviado com sucesso!</p>}
       {status === 'error' && <p className="error">Ocorreu um erro. Tente novamente.</p>}
     </form>

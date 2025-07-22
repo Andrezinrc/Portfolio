@@ -1,25 +1,16 @@
 {
-  "name": "react17-basic-app",
+  "name": "react-basic-no-build",
   "version": "1.0.0",
-  "description": "Projeto React 17 básico com Babel para JSX",
-  "main": "index.js",
+  "description": "Projeto React simples sem build, com CDN",
   "scripts": {
-    "build": "babel src --out-dir public --extensions \".js,.jsx\"",
-    "start": "live-server public"
+    "start": "live-server"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "emailjs-com": "^3.2.0"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.0",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/cli": "^7.22.5",
     "live-server": "^1.2.2"
-  },
-  "babel": {
-    "presets": ["@babel/preset-react"]
   },
   "author": "",
   "license": "MIT"

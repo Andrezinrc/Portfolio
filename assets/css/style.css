@@ -41,6 +41,22 @@ html {
   color: #ccc;
 }
 
+.success {
+  color: #81c784;
+}
+
+.error {
+  color: #e57373;
+}
+
+.input-valid {
+  border: 2px solid #81c784 !important;
+}
+
+.input-invalid {
+  border: 2px solid #e57373 !important;
+}
+
 .form button {
   width: 100%;
   height: 45px;
@@ -57,23 +73,13 @@ html {
 }
 
 .form button:disabled {
-  background-color: #1F2633;
-  color: #ccc;
+  background-color: #1f2633;
+  color: #7a7a7a;
   cursor: not-allowed;
 }
 
 .form input::placeholder {
   color: #ccc;
-}
-
-.input-valid {
-  border: 1px solid #00c37a;
-  outline: none;
-}
-
-.input-invalid {
-  border: 1px solid #ff4d4f;
-  outline: none;
 }
 
 /* Responsivo: Mobile */
