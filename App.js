@@ -1,14 +1,19 @@
 import React from 'react';
 import Header from './Header';
 import Content from './Content.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
     <div>
-      { /* Componente de Cabeçalho do Portfólio */ }
+      { /* Cabeçalho do Portfólio */ }
       <Header />
-      { /* Componente de Conteúdo Principal do Portfólio */ }
+      
+      { /* Conteúdo Principal do Portfólio */ }
       <Content />
+      
+      {/* Rodapé do Portfólio */}
+      <Footer />
     </div>
   );
 }

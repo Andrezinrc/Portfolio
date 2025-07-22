@@ -1,0 +1,90 @@
+.footer {
+  background-color: #141414;
+  width: 100%;
+  position: relative;
+  top: 80px;
+  padding: 120px 50px 20px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-info,
+.footer-menu,
+.footer-social {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+.footer-info h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer-info .email {
+  color: #ccc;
+}
+
+.footer small {
+  color: #00BFFF;
+}
+
+.footer-menu h2,
+.footer-social h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.footer-menu ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li,
+.footer-social li {
+  margin-bottom: 15px;
+}
+
+.footer-menu a,
+.footer-social a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-menu a:hover,
+.footer-social a:hover {
+  color: #00aaff;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-copy span {
+  color: #00BFFF;
+}
+
+/* Responsivo: Mobile */
+@media screen and (max-width: 768px) {
+  .footer {
+    top: 70px;
+    padding: 80px 20px 20px 20px;
+  }
+}
