@@ -4,7 +4,7 @@ import About from './sections/About.js';
 import Skills from './sections/Skills.js';
 import Certificates from './sections/Certificates.js';
 import Projects from './sections/Projects.js';
-
+import Contact from './sections/Contact.js';
 
 function Content(){
   return (
@@ -23,6 +23,9 @@ function Content(){
       
       { /* Seção Projetos */ }
       <Projects />
+      
+      { /* Seção contato */ }
+      <Contact />
     </main>
   );
 };

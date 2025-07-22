@@ -17,7 +17,7 @@ function Hero(){
           <a href="https://github.com/Andrezinrc" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/andr%C3%A9-moreira-940886233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
           <a href="https://www.instagram.com/andrezin.dev" target="_blank" rel="noopener noreferrer">

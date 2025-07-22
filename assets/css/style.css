@@ -14,17 +14,19 @@ html {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  background-color: #1e1e1e;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  border: 1px solid #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   gap: 15px;
+  margin: 0 auto;
 }
 
 .form input {
-  width: 250px;
+  width: 100%;
   height: 45px;
   background-color: #262626;
-  border: 1px solid #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
   border-radius: 6px;
   outline: none;
@@ -40,7 +42,7 @@ html {
 }
 
 .form button {
-  width: 250px;
+  width: 100%;
   height: 45px;
   background-color: #00BFFF;
   border-radius: 6px;
@@ -56,7 +58,6 @@ html {
 
 .form button:disabled {
   background-color: #1F2633;
-  border: 1px solid #2a2a2a;
   color: #ccc;
   cursor: not-allowed;
 }
@@ -67,5 +68,7 @@ html {
 
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
-  
+  .form {
+    width: 100%;
+  }
 }
