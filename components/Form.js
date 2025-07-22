@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 function Form() {
   const [email, setEmail] = useState('');
@@ -26,6 +27,16 @@ function Form() {
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       templateParams,
       process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    ).then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setStatus('success');
+        setEmail('');
+      },
+      (error) => {
+        console.log('FAILED...', error);
+        setStatus('error');
+      }
     );
   };
   
@@ -37,6 +48,13 @@ function Form() {
           placeholder="Seu e-mail"
           value={email}
           onChange={handleChange}
+          className={
+            email.length === 0
+              ? ''
+              : isValid
+              ? 'input-valid'
+              : 'input-invalid'
+          }
         />
       </div>
       

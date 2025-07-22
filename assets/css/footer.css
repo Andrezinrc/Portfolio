@@ -87,4 +87,8 @@
     top: 70px;
     padding: 80px 20px 20px 20px;
   }
+  
+  .footer-info h1 {
+    font-size: 1.8rem;
+  }
 }
