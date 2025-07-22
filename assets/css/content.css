@@ -232,8 +232,12 @@
   border-radius: 8px;
   width: 100%;
   max-width: 500px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border: 1px solid #2a2a2a;
+}
+
+.certificate-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
 
 .certificate-logo {
@@ -312,12 +316,12 @@
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
 .project-card:hover {
   transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-card img {
@@ -466,6 +470,9 @@
   
   .certificates-title h1 {
     font-size: 1.8rem;
+  }
+  .certificate-logo {
+    width: 60px;
   }
   
   .projects-section {
