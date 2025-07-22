@@ -237,8 +237,6 @@
 
 .certificate-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 6px rgba(0, 191, 255, 0.15),
-0 0 10px rgba(0, 191, 255, 0.07);
 }
 
 .certificate-logo {
@@ -322,8 +320,6 @@
 
 .project-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 6px rgba(0, 191, 255, 0.15),
-0 0 10px rgba(0, 191, 255, 0.07);
 }
 .project-card img {
   width: 100%;
@@ -406,6 +402,7 @@
 
 .contact-links {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -438,7 +435,6 @@
   
   .hero-contact {
     width: 100%;
-    padding: 20px;
   }
   
   .about-text {
