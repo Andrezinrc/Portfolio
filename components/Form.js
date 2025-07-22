@@ -8,9 +8,15 @@ function Form() {
   // Regex simples para validar e-mail
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
+  const {
+    EMAILJS_SERVICE_ID,
+    EMAILJS_TEMPLATE_ID,
+    EMAILJS_PUBLIC_KEY
+  } = window.env
+    
   useEffect(() => {
     // Inicializa EmailJS usando a variável de ambiente
-    window.emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
+    window.emailjs.init(EMAILJS_PUBLIC_KEY);
   }, []);
   
   function handleChange(e) {
@@ -27,23 +33,11 @@ function Form() {
     };
     
     window.emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          setStatus('success');
-          setEmail('');
-          setIsValid(false);
-        },
-        (error) => {
-          console.log('FAILED...', error);
-          setStatus('error');
-        }
-      );
+      EMAILJS_SERVICE_ID,
+      EMAILJS_TEMPLATE_ID,
+      templateParams,
+      EMAILJS_PUBLIC_KEY
+    )
   }
   
   return (
@@ -75,3 +69,4 @@ function Form() {
 }
 
 export default Form;
+

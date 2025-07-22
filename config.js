@@ -21,5 +21,11 @@ SystemJS.config({
   transpiler: 'plugin-babel'
 });
 
+window.env = {
+  EMAILJS_SERVICE_ID: "",
+  EMAILJS_TEMPLATE_ID: "",
+  EMAILJS_PUBLIC_KEY: ""
+};
+
 SystemJS.import('./index.js')
   .catch(console.error.bind(console));
