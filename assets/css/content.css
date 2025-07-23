@@ -63,7 +63,7 @@
   position: relative;
   top: 80px;
   padding: 120px 50px;
-  background-color: #0F1624;
+  background-color: #1A2738;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -183,7 +183,7 @@
 }
 
 .certificates-section {
-  background-color: #0F1624;
+  background-color: #1A2738;
   width: 100%;
   position: relative;
   top: 80px;
@@ -223,7 +223,7 @@
 }
 
 .certificate-card {
-  background-color: #00BFFF20;
+  background-color: #151F2E;
   padding: 30px;
   border-radius: 8px;
   width: 100%;
@@ -244,7 +244,7 @@
 }
 
 .certificate-text {
-  color: #ccc;
+  color: #fff;
   margin-bottom: 20px;
   line-height: 1.6;
   font-size: 16px;
@@ -358,7 +358,7 @@
 }
 
 .contact-section {
-  background-color: #0F1624;
+  background-color: #1A2738;
   width: 100%;
   position: relative;
   top: 80px;

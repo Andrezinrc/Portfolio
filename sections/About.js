@@ -20,7 +20,7 @@ function About(){
       </div>
       
       <div className="about-button-container">
-        <a className="about-button" href="#projetos">Ver Projetos</a>
+        <a className="about-button" href="#projects">Ver Projetos</a>
       </div>
     </section>
   );
