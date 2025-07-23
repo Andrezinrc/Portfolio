@@ -3,7 +3,7 @@
   position: relative;
   top: 80px;
   display: flex;
-  background-color: #141414;
+  background-color: #0F1624;
   padding: 120px 50px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .hero-text p {
-  color: #B0B0B0;
+  color: #ccc;
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -63,7 +63,7 @@
   position: relative;
   top: 80px;
   padding: 120px 50px;
-  background-color: #1e1e1e;
+  background-color: #0F1624;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -84,7 +84,7 @@
 
 .about-text p {
   font-size: 1rem;
-  color: #B0B0B0;
+  color: #ccc;
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto 1.2rem auto;
@@ -122,7 +122,7 @@
   position: relative;
   top: 80px;
   padding: 120px 50px;
-  background-color: #141414;
+  background-color: #0F1624;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -144,7 +144,7 @@
 
 .skills-description{
   font-size: 1rem;
-  color: #B0B0B0;
+  color: #ccc;
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto 1.2rem auto;
@@ -183,7 +183,7 @@
 }
 
 .certificates-section {
-  background-color: #1e1e1e;
+  background-color: #0F1624;
   width: 100%;
   position: relative;
   top: 80px;
@@ -208,7 +208,7 @@
 
 .certificates-description{
   font-size: 1rem;
-  color: #B0B0B0;
+  color: #ccc;
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto 1.2rem auto;
@@ -223,7 +223,7 @@
 }
 
 .certificate-card {
-  background-color: #2a2a2a;
+  background-color: #1A2738;
   padding: 30px;
   border-radius: 8px;
   width: 100%;
@@ -265,7 +265,7 @@
 }
 
 .projects-section {
-  background-color: #141414;
+  background-color: #0F1624;
   width: 100%;
   position: relative;
   top: 80px;
@@ -290,7 +290,7 @@
 
 .projects-description {
   font-size: 1rem;
-  color: #B0B0B0;
+  color: #ccc;
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto 1.2rem auto;
@@ -306,7 +306,7 @@
 }
 
 .project-card {
-  background-color: #1e1e1e;
+  background-color: #1A2738;
   display: flex;
   flex-direction: column;
   max-width: 400px;
@@ -358,7 +358,7 @@
 }
 
 .contact-section {
-  background-color: #1e1e1e;
+  background-color: #0F1624;
   width: 100%;
   position: relative;
   top: 80px;
@@ -383,7 +383,7 @@
 
 .contact-section p {
   font-size: 1rem;
-  color: #B0B0B0;
+  color: #ccc;
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto 1.2rem auto;
@@ -401,14 +401,13 @@
 
 .contact-links {
   margin-top: 2rem;
-  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
 
 .contact-links a {
-  color: #B0B0B0;
+  color: #ccc;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -491,6 +490,6 @@
 
 @media screen and (max-width: 400px){
   .hero-text h1 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
 }

@@ -28,7 +28,6 @@ function Hero(){
     
       <div className="hero-contact">
         {/* Formulário de contato ou botão de ação */}
-        <Form />
       </div>
     </div>
   );

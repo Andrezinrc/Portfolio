@@ -35,7 +35,7 @@ function Certificates() {
         <div className="certificate-card">
           <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" />
           <p className="certificate-text">
-            Back End Development and APIs<br />
+            Back End Development and<br></br> APIs<br />
             <strong>300 horas - Setembro 2024</strong>
           </p>
           <a
@@ -53,3 +53,4 @@ function Certificates() {
 }
 
 export default Certificates;
+
