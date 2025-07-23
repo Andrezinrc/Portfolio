@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Form() {
+function Form({ buttonText }) {
   const [email, setEmail] = useState('');
   const [isValid, setIsValid] = useState(false);
   const [status, setStatus] = useState(null);
@@ -58,9 +58,8 @@ function Form() {
         />
       </div>
       <div>
-        <button type="submit" disabled={!isValid}>
-          Solicitar orçamento
-        </button>
+        <button type = "submit"
+          disabled = {!isValid } > { buttonText } </button>
       </div>
       {status === 'success' && <p className="success">E-mail enviado com sucesso!</p>}
       {status === 'error' && <p className="error">Ocorreu um erro. Tente novamente.</p>}

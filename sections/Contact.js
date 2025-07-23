@@ -17,7 +17,7 @@ function Contact(){
       </div>
       
       <div>
-        <Form />
+        <Form buttonText="Solicitar orçamento" />
       </div>
       
       <div>
@@ -35,3 +35,4 @@ function Contact(){
   );
 };
 export default Contact;
+

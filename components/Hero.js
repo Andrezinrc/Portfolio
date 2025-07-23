@@ -28,8 +28,16 @@ function Hero(){
     
       <div className="hero-contact">
         {/* Formulário de contato ou botão de ação */}
+        <Form
+          buttonText={
+            <div>
+              Solicitar um<br />orçamento 
+            </div>
+          }
+        />
       </div>
     </div>
   );
 };
 export default Hero;
+
