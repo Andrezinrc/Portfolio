@@ -32,6 +32,10 @@
   color: #fff;
 }
 
+.title h1 span {
+  color: #00BFFF;
+}
+
 .hamburguer {
   display: none;
 }
@@ -158,3 +162,8 @@
   }
 }
 
+@media screen and (max-width: 400px){
+  .title h1 {
+    font-size: 1.4rem;
+  }
+}
