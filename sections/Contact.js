@@ -17,7 +17,18 @@ function Contact(){
       </div>
       
       <div>
-        <Form buttonText="Solicitar orçamento" />
+        <Form 
+          buttonText={
+            <div className="button-content">
+              <div>
+                  Solicitar um orçamento 
+              </div>
+              <div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          }
+        />
       </div>
       
       <div>

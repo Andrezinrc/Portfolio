@@ -43,7 +43,8 @@ body {
   padding: 15px;
   display: flex;
   background: #151F2E;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
+0 0 12px rgba(0, 191, 255, 0.05);
   flex-direction: column;
   border-radius: 8px;
   gap: 15px;
@@ -88,24 +89,30 @@ body {
 .form button {
   width: 100%;
   border-radius: 6px;
-  padding: 10px;
-  background-color: #006BB8;
+  padding: 12px;
+  background-color: #00BFFF;
   border: 0;
   color: #fff;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
 }
 .form button:hover {
-  background-color: #0067B0;
+  background-color: #009acc;
 }
 
 .form button:disabled {
   opacity: 0.7;
-  background-color: #006BB8;
+  background-color: #4A4A4A;
 }
 
 .form input::placeholder {
   color: #ccc;
+}
+.button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Responsivo: Mobile */

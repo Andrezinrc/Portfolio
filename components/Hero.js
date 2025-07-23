@@ -30,8 +30,13 @@ function Hero(){
         {/* Formulário de contato ou botão de ação */}
         <Form
           buttonText={
-            <div>
-              Solicitar um<br />orçamento 
+            <div className="button-content">
+              <div>
+                Solicitar um<br />orçamento 
+              </div>
+              <div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           }
         />

@@ -6,11 +6,18 @@ function Footer() {
       <div className="footer-container">
         {/* Informações */}
         <div className="footer-info">
-          <h1>Andrecode</h1>
-          <address>
-            <a className="email" href="mailto:dev.contactandre@gmail.com">dev.contactandre@gmail.com</a>
-          </address>
-          <small>Respostas em até 24 h.</small>
+          <div>
+            <h1>Andrecode</h1>
+          </div>
+          <div>
+            <address>
+              <a className="email" href="mailto:dev.contactandre@gmail.com">dev.contactandre@gmail.com</a>
+            </address>
+            <div>
+              <a href="tel:+5519997269646">(19) 99726-9646</a>
+            </div>
+            <small>Respostas em até 24 h.</small>
+          </div>
         </div>
 
         {/* Menu do site */}
@@ -46,3 +53,4 @@ function Footer() {
 }
 
 export default Footer;
+

@@ -23,6 +23,11 @@
   flex: 1 1 250px;
   min-width: 200px;
 }
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .footer-info h1 {
   font-family: 'Poppins', sans-serif;
@@ -33,6 +38,10 @@
 
 .footer-info .email {
   color: #ccc;
+}
+.footer-info a {
+  color: #fff;
+  font-size: 16px;
 }
 
 .footer small {
