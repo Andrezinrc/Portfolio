@@ -43,6 +43,7 @@ body {
   padding: 15px;
   display: flex;
   background: #151F2E;
+  border: 1px solid rgba(0, 191, 255, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
 0 0 12px rgba(0, 191, 255, 0.05);
   flex-direction: column;

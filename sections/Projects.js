@@ -57,6 +57,10 @@ function Projects(){
           </div>
         </div>
       </div>
+      
+      <p className="projects-description">
+        Esses são apenas os primeiros passos. Se quiser conversar sobre tecnologia ou possíveis parcerias, fique à vontade para me chamar.
+      </p>
     </section>
   );
 };

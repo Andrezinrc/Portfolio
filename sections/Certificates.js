@@ -18,7 +18,7 @@ function Certificates() {
         <div className="certificate-card">
           <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" />
           <p className="certificate-text">
-            Legacy JavaScript Algorithms and<br></br> Data Structures<br />
+            Legacy JavaScript Algorithms and Data Structures<br />
             <strong>300 horas - Dezembro 2022</strong>
           </p>
           <a
@@ -48,9 +48,12 @@ function Certificates() {
           </a>
         </div>
       </div>
+      
+      <p className="certificates-description">
+        Estude também com a <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><strong>freeCodeCamp</strong></a>
+      </p>
     </section>
   );
 }
 
 export default Certificates;
-

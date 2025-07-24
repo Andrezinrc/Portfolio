@@ -37,6 +37,10 @@ function Skills() {
           <img src="/assets/images/git.png" alt="Git logo" />
         </div>
       </div>
+      
+      <p className="skills-description" style={{ marginTop: '15px' }}>
+        Conhecimento sólido é o primeiro passo para grandes conquistas.
+      </p>
     </section>
   );
 }
