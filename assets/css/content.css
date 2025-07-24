@@ -231,14 +231,15 @@
 }
 
 .certificate-card {
-  background-color: hsl(232.7,27.3%,23.7%);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
-0 0 12px rgba(0, 191, 255, 0.05);
+  background-color: hsl(225, 15%, 40%);
+  box-shadow: 
+  0 4px 12px rgba(0, 0, 0, 0.25),
+  0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 8px;
   width: 100%;
   max-width: 500px;
-  border: 2px solid hsl(232.7,27.3%,23.7%);
+  border: 2px solid hsl(225, 15%, 40%);
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -246,9 +247,6 @@
 
 .certificate-card:hover {
   transform: scale(1.02);
-  box-shadow:
-    0 6px 20px rgba(0, 0, 0, 0.3),
-    0 0 16px rgba(0, 191, 255, 0.1);
 }
 
 .certificate-logo {
@@ -319,24 +317,22 @@
 }
 
 .project-card {
-  background-color: hsl(232.7,27.3%,23.7%);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
-0 0 8px rgba(0, 191, 255, 0.08);
+  background-color: hsl(225, 15%, 40%);
+  box-shadow: 
+  0 4px 12px rgba(0, 0, 0, 0.25),
+  0 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   max-width: 400px;
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  border: 2px solid hsl(232.7,27.3%,23.7%);
+  border: 2px solid hsl(225, 15%, 40%);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: scale(1.02);
-  box-shadow:
-    0 6px 20px rgba(0, 0, 0, 0.3),
-    0 0 16px rgba(0, 191, 255, 0.1);
 }
 .project-card img {
   width: 100%;
