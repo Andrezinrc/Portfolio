@@ -231,7 +231,7 @@
 }
 
 .certificate-card {
-  background-color: hsl(225, 15%, 40%);
+  background-color: #2C3E50;
   box-shadow: 
   0 4px 12px rgba(0, 0, 0, 0.25),
   0 2px 6px rgba(0, 0, 0, 0.1);
@@ -239,7 +239,6 @@
   border-radius: 8px;
   width: 100%;
   max-width: 500px;
-  border: 2px solid hsl(225, 15%, 40%);
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -317,17 +316,17 @@
 }
 
 .project-card {
-  background-color: hsl(225, 15%, 40%);
+  background-color: #2C3E50;
   box-shadow: 
   0 4px 12px rgba(0, 0, 0, 0.25),
   0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2C3E50;
   display: flex;
   flex-direction: column;
   max-width: 400px;
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  border: 2px solid hsl(225, 15%, 40%);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
