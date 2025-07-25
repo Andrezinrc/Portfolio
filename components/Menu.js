@@ -41,15 +41,38 @@ function Menu() {
       
       {/* Menu Mobile */}
       <ul className={`menu-mobile ${menuOpen ? 'open' : ''}`}>
-        <li className="nav-list"><a href="#" className="nav-link" onClick={handleLinkClick}>Inicio</a></li>
-        <li className="nav-list"><a href="#about" className="nav-link" onClick={handleLinkClick}>Sobre mim</a></li>
-        <li className="nav-list"><a href="#skills" className="nav-link" onClick={handleLinkClick}>Habilidades</a></li>
-        <li className="nav-list"><a href="#certificates" className="nav-link" onClick={handleLinkClick}>Certificados</a></li>
-        <li className="nav-list"><a href="#projects" className="nav-link" onClick={handleLinkClick}>Projetos</a></li>
-        <li className="nav-list"><a href="#contact" className="nav-link" onClick={handleLinkClick}>Contato</a></li>
+        <li className="nav-list">
+          <a href="#" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-home"></i> Início
+          </a>
+        </li>
+        <li className="nav-list">
+          <a href="#about" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-user"></i> Sobre mim
+          </a>
+        </li>
+        <li className="nav-list">
+          <a href="#skills" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-tools"></i> Habilidades
+          </a>
+        </li>
+        <li className="nav-list">
+          <a href="#certificates" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-certificate"></i> Certificados
+          </a>
+        </li>
+        <li className="nav-list">
+          <a href="#projects" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-code"></i> Projetos
+          </a>
+        </li>
+        <li className="nav-list">
+          <a href="#contact" className="nav-link" onClick={handleLinkClick}>
+            <i className="fas fa-envelope"></i> Contato
+          </a>
+        </li>
       </ul>
     </nav>
   );
 };
 export default Menu;
-
