@@ -187,7 +187,7 @@
 
 .certificates-title h1 {
   font-size: 2.5rem;
-  color: #1a1a1a;
+  color: #111111;
   font-family: 'Inter', sans-serif !important;
   font-weight: 200;
   text-align: center;
@@ -206,11 +206,11 @@
 }
 
 .certificates-description a {
-  color: #00BFFF;
+  color: hsl(205, 100%, 32%);
 }
 
 .certificates-description a:hover{
-  color: #009acc;
+  color: hsl(208, 100%, 32%);
 }
 .certificates-container {
   display: flex;
@@ -247,6 +247,10 @@
   margin-bottom: 20px;
   line-height: 1.6;
   font-size: 16px;
+}
+
+.certificate-text strong{
+  color: #1a1a1a;
 }
 
 .certificate-button {
@@ -394,7 +398,7 @@
 .contact-section small {
   display: block;
   font-size: 0.85rem;
-  color: #00BFFF;
+  color: hsl(205, 100%, 32%);
   font-style: italic;
   text-align: center;
   margin-top: 10px;

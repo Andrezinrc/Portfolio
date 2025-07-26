@@ -26,7 +26,15 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 10px 20px;
 }
+
 .dot-pulse span {
   width: 8px;
   height: 8px;
