@@ -6,7 +6,7 @@ function Hero(){
     <div className="hero" id="#">
       <div className="hero-text">
         <div>
-          <h1>Transformando ideias em <span>soluções digitais</span></h1>
+          <h1>Transformando ideias em soluções digitais</h1>
         </div>
           
         <div>
@@ -25,26 +25,7 @@ function Hero(){
           </a>
         </div>
       </div>
-    
-      <div className="hero-contact">
-        {/* Formulário de contato ou botão de ação */}
-        {/*}
-        <Form
-          buttonText={
-            <div className="button-content">
-              <div>
-                Solicitar um<br />orçamento 
-              </div>
-              <div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </div>
-            </div>
-          }
-        />
-        */}
-      </div>
     </div>
   );
 };
 export default Hero;
-

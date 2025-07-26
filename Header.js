@@ -18,7 +18,7 @@ function Header() {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-content">
         <div className="title">
-          <h1><span>&#123;</span> Andrecode <span>&#125;</span></h1>
+          <h1>Andrecode</h1>
         </div>
         
         {/* Menu de navegação principal */}
