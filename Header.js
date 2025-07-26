@@ -17,10 +17,6 @@ function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-content">
-        <div className="title">
-          <h1>Andrecode</h1>
-        </div>
-        
         {/* Menu de navegação principal */}
         <Menu />
       </div>
