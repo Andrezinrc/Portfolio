@@ -9,7 +9,7 @@ function About(){
       
       <div>
         <p>
-          Sou um desenvolvedor autodidata que iniciou sua jornada no final de 2019, explorando o universo da programação com foco em resolver problemas de forma prática e criativa. No começo, mergulhei em lógicas básicas e pequenos desafios, o que logo despertou meu interesse por criar soluções que pudessem impactar o dia a dia das pessoas.
+          Sou <strong>André Moreira</strong>, um desenvolvedor autodidata que iniciou sua jornada no final de 2019, explorando o universo da programação com foco em resolver problemas de forma prática e criativa. No começo, mergulhei em lógicas básicas e pequenos desafios, o que logo despertou meu interesse por criar soluções que pudessem impactar o dia a dia das pessoas.
         </p>
       </div>
       
@@ -20,9 +20,10 @@ function About(){
       </div>
       
       <div className="about-button-container">
-        <a className="about-button" href="#projects">Ver Projetos</a>
+        <a className="about-button" href="#projetos">Ver Projetos</a>
       </div>
     </section>
   );
 };
 export default About;
+

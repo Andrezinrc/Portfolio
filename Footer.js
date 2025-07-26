@@ -7,9 +7,6 @@ function Footer() {
         {/* Informações */}
         <div className="footer-info">
           <div>
-            <h1>Andrecode</h1>
-          </div>
-          <div>
             <address>
               <a className="email" href="mailto:dev.contactandre@gmail.com">dev.contactandre@gmail.com</a>
             </address>
@@ -53,4 +50,3 @@ function Footer() {
 }
 
 export default Footer;
-
