@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects(){
+function Projects() {
   return (
     <section className="projects-section" id="projects">
       <div className="projects-title">
@@ -15,7 +15,7 @@ function Projects(){
     
         {/* Projeto 1 - Huffman */}
         <div className="project-card">
-          <img src="/assets/images/huffman.jpeg" alt="Projeto Huffman" />
+          <img src="/assets/images/huffman.jpeg" alt="Projeto Huffman" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">Compactador Huffman</h2>
@@ -37,7 +37,7 @@ function Projects(){
     
         {/* Projeto 2 - TCP Chat */}
         <div className="project-card">
-          <img src="/assets/images/chat.jpeg" alt="Projeto TCP Chat" />
+          <img src="/assets/images/chat.jpeg" alt="Projeto TCP Chat" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">TCP Chat Seguro</h2>
@@ -59,7 +59,7 @@ function Projects(){
         
         { /* Projeto 3 - Task API */ }
         <div className="project-card">
-          <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" />
+          <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">Task API</h2>
@@ -87,4 +87,5 @@ function Projects(){
     </section>
   );
 };
+
 export default Projects;

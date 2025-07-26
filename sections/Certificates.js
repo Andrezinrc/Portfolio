@@ -16,7 +16,7 @@ function Certificates() {
       <div className="certificates-container">
         {/* Certificado 1 */}
         <div className="certificate-card">
-          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" />
+          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
           <p className="certificate-text">
             Legacy JavaScript Algorithms and Data Structures<br />
             <strong>300 horas - Dezembro 2022</strong>
@@ -33,7 +33,7 @@ function Certificates() {
 
         {/* Certificado 2 */}
         <div className="certificate-card">
-          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" />
+          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
           <p className="certificate-text">
             Back End Development and<br></br> APIs<br />
             <strong>300 horas - Setembro 2024</strong>

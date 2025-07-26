@@ -19,22 +19,22 @@ function Skills() {
 
       <div className="carousel-wrapper">
         <div className="carousel-track">
-          <img src="/assets/images/c.png" alt="C logo" />
-          <img src="/assets/images/js.png" alt="JavaScript logo" />
-          <img src="/assets/images/ts.png" alt="TypeScript logo" />
-          <img src="/assets/images/react.png" alt="React logo" />
-          <img src="/assets/images/node.png" alt="Node.js logo" />
-          <img src="/assets/images/mysql.png" alt="MySql logo" />
-          <img src="/assets/images/git.png" alt="Git logo" />
+          <img src="/assets/images/c.png" alt="C logo" loading="lazy" />
+          <img src="/assets/images/js.png" alt="JavaScript logo" loading="lazy" />
+          <img src="/assets/images/ts.png" alt="TypeScript logo" loading="lazy" />
+          <img src="/assets/images/react.png" alt="React logo" loading="lazy" />
+          <img src="/assets/images/node.png" alt="Node.js logo" loading="lazy" />
+          <img src="/assets/images/mysql.png" alt="MySql logo" loading="lazy" />
+          <img src="/assets/images/git.png" alt="Git logo" loading="lazy" />
           
           {/* Duplicado para loop contínuo */}
-          <img src="/assets/images/c.png" alt="C logo" />
-          <img src="/assets/images/js.png" alt="JavaScript logo" />
-          <img src="/assets/images/ts.png" alt="TypeScript logo" />
-          <img src="/assets/images/react.png" alt="React logo" />
-          <img src="/assets/images/node.png" alt="Node.js logo" />
-          <img src="/assets/images/mysql.png" alt="MySql logo" />
-          <img src="/assets/images/git.png" alt="Git logo" />
+          <img src="/assets/images/c.png" alt="C logo" loading="lazy" />
+          <img src="/assets/images/js.png" alt="JavaScript logo" loading="lazy" />
+          <img src="/assets/images/ts.png" alt="TypeScript logo" loading="lazy" />
+          <img src="/assets/images/react.png" alt="React logo" loading="lazy" />
+          <img src="/assets/images/node.png" alt="Node.js logo" loading="lazy" />
+          <img src="/assets/images/mysql.png" alt="MySql logo" loading="lazy" />
+          <img src="/assets/images/git.png" alt="Git logo" loading="lazy" />
         </div>
       </div>
       
