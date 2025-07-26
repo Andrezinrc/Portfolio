@@ -56,11 +56,34 @@ function Projects(){
             </div>
           </div>
         </div>
+        
+        { /* Projeto 3 - Task API */ }
+        <div className="project-card">
+          <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" />
+          <div className="project-info">
+            <div>
+              <h2 className="card-title">Task API</h2>
+            </div>
+        
+            <div>
+              <p>
+                API RESTful para gerenciamento de tarefas, construída com Node.js, Express e Mongoose. Permite operações CRUD, autenticação de usuários e segue boas práticas de organização.
+              </p>
+            </div>
+        
+            <div>
+              <a href="https://github.com/Andrezinrc/task-api" target="_blank" className="project-button">
+                Ver no GitHub
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       
       <p className="projects-description">
         Esses são apenas os primeiros passos. Se quiser conversar sobre tecnologia ou possíveis parcerias, fique à vontade para me chamar.
       </p>
+    
     </section>
   );
 };
