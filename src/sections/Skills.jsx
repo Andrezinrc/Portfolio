@@ -16,26 +16,30 @@ function Skills() {
       <div className="carousel-wrapper">
         <div className="carousel-track">
           <img src="/assets/images/c.png" alt="C logo" />
-          <img src="/assets/images/c-sharp.png" alt="C sharp logo" />
           <img src="/assets/images/js.png" alt="JavaScript logo" />
           <img src="/assets/images/ts.png" alt="TypeScript logo" />
           <img src="/assets/images/react.png" alt="React logo" />
           <img src="/assets/images/node.png" alt="Node.js logo" />
           <img src="/assets/images/express.png" alt="Express logo" />
+          <img src="/assets/images/python.png" alt="Python logo" />
+          <img src="/assets/images/flask.png" alt="Flask logo" />
           <img src="/assets/images/mongodb.png" alt="MongoDB logo" />
           <img src="/assets/images/mysql.png" alt="MySQL logo" />
+          <img src="/assets/images/firebase.png" alt="Firebase logo" />
           <img src="/assets/images/git.png" alt="Git logo" />
 
           {/* Duplicado para loop contínuo */}
           <img src="/assets/images/c.png" alt="C logo" />
-          <img src="/assets/images/c-sharp.png" alt="C sharp logo" />
           <img src="/assets/images/js.png" alt="JavaScript logo" />
           <img src="/assets/images/ts.png" alt="TypeScript logo" />
           <img src="/assets/images/react.png" alt="React logo" />
           <img src="/assets/images/node.png" alt="Node.js logo" />
           <img src="/assets/images/express.png" alt="Express logo" />
+          <img src="/assets/images/python.png" alt="Python logo" />
+          <img src="/assets/images/flask.png" alt="Flask logo" />
           <img src="/assets/images/mongodb.png" alt="MongoDB logo" />
           <img src="/assets/images/mysql.png" alt="MySQL logo" />
+          <img src="/assets/images/firebase.png" alt="Firebase logo" />
           <img src="/assets/images/git.png" alt="Git logo" />
         </div>
       </div>

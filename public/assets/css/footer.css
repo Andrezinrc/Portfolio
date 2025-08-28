@@ -87,11 +87,11 @@
   color: #5D9DF5;
 }
 
-.footer-copy,
-.privacy-link {
+.footer-copy {
+  margin-top: 40px;
   font-size: 0.85rem;
   color: #666666;
-  text-align: left;
+  text-align: center;
 }
 
 .form-note {
