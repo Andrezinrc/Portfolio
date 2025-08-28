@@ -2,7 +2,13 @@
   width: 100%;
   position: relative;
   display: flex;
-  background: linear-gradient(15deg, hsl(215, 100%, 45%), hsl(215, 100%, 55%));
+  background: 
+    linear-gradient(
+      15deg, 
+      hsla(215, 100%, 45%, 0.9),
+      hsla(215, 100%, 55%, 0.9)
+    ),
+    url('/assets/images/background.jpeg') center/cover;
   padding: 180px 20px;
   overflow: hidden;
   isolation: isolate;
@@ -12,7 +18,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 70% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  background: radial-gradient(
+    circle at 70% 20%, 
+    rgba(255, 255, 255, 0.15) 0%, 
+    transparent 50%
+  );
   z-index: -1;
 }
 
