@@ -20,7 +20,7 @@ function About() {
       </div>
       
       <div className="about-button-container">
-        <a className="about-button" href="https://andrezin-blog.vercel.app/">Ler Blog</a>
+        <a className="about-button" href="#projects">Ver projetos</a>
       </div>
     </section>
   );
