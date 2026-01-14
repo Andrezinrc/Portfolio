@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+.form {
+  max-width: 400px;
+  padding: 15px;
+  display: flex;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 100%;
+  height: 45px;
+  border: 0;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.3s ease;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 10px;
+}
+
+.form input::placeholder {
+  color: #999;
+}
+
+.input-valid {
+  border-color: #22B528 !important;
+}
+
+.input-invalid {
+  border-color: #c0392b !important;
+}
+
+.form button {
+  width: 100%;
+  border-radius: 6px;
+  background-color: #1A1A1A;
+  color: #ffffff;
+  padding: 12px;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form button:hover {
+  background-color: #000000;
+  transform: translateY(-1px);
+}
+
+.form button:disabled {
+  background-color: #DDDDDD;
+  cursor: not-allowed;
+}
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.error-message {
+  color: #c0392b !important;
+  background-color: #fdedec;
+  border: 1px solid #fadbd8;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: center;
+  animation: shake 0.5s ease;
+}
+
+.success-message {
+  color: #666 !important;
+  background-color: #f0f9f0;
+  border: 1px solid #e0f0e0;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.privacy-policy h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.privacy-policy a {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.privacy-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.privacy-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+}
