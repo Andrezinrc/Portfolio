@@ -42,7 +42,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="project-button"
               >
-                <i className="fas fa-globe"></i> Ver Projeto
+                <i className="fas fa-globe"></i>
               </a>
             </div>
           </div>
@@ -77,7 +77,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="project-button"
               >
-                <i className="fas fa-globe"></i> Ver Projeto
+                <i className="fas fa-globe"></i>
               </a>
             </div>
           </div>
