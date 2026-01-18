@@ -215,129 +215,6 @@
   }
 }
 
-.certificates-section {
-  background-color: #F8F9FA;
-  width: 100%;
-  position: relative;
-  padding: 120px 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.certificates-title h1 {
-  font-size: 2.5rem;
-  font-weight: 200;
-  letter-spacing: -0.5px;
-  margin-bottom: 10px;
-  color: #1A1A1A;
-  font-family: 'Inter', sans-serif !important;
-  text-align: center;
-}
-
-.certificates-title h1 span {
-  color: #00BFFF;
-}
-
-.certificates-description{
-  font-size: 1rem;
-  font-weight: 400;
-  color: #555555;
-  line-height: 1.6;
-  max-width: 700px;
-  margin: 0 auto 1.2rem auto;
-}
-
-.certificates-description a {
-  color: #0A1D37;
-  transition: all 0.3s;
-}
-
-.certificates-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
-  padding: 20px 0;
-}
-
-.certificate-card {
-  display: flex;
-  flex-direction: column;
-  max-width: 350px;
-  width: 100%;
-  transition: all 0.3s ease;
-  background-color: white;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  border: 1px solid #eaeaea;;
-  text-align: left;
-}
-
-.certificate-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
-}
-
-.certificate-logo {
-  width: 100%;
-  height: auto;
-  margin-bottom: 18px;
-  object-fit: contain;
-}
-
-.certificate-image-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-.certificate-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(10, 29, 55, 0.85);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  font-weight: 500;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.certificate-image-wrapper:hover .certificate-overlay {
-  opacity: 1;
-}
-
-.certificate-overlay a {
-  text-decoration: none;
-  color: #ffff;
-}
-
-.certificate-button {
-  margin-top: 18px;
-  align-self: flex-start;
-  background-color: transparent;
-  color: #555;
-  border: 1px solid #ddd;
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 4px;
-  font-weight: 400;
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-
-.certificate-button:hover {
-  background-color: #f5f5f5;
-  border-color: #bbb;
-  color: #222;
-}
 .projects-section {
   background-color: #F8F9FA;
   width: 100%;
@@ -526,7 +403,6 @@
   text-decoration: underline;
 }
 
-/* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -556,10 +432,6 @@
 
   .carousel-track img {
     height: 60px;
-  }
-
-  .certificates-section {
-    padding: 120px 20px;
   }
   
   .projects-section {
